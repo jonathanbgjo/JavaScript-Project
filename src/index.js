@@ -27,6 +27,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     gameview = new GameView(canvasElement, ctx)
     gameview.start()
+
+    
     // GameView.start(canvasElement, ctx)
     // const mo = new MovingObject({
     //     pos: [30, 30],

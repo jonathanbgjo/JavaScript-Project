@@ -35,7 +35,7 @@ Game.prototype.randomPosition = function (){
     let dinoStart = random_item(startPOS);
     
     if (dinoStart === 0){
-        return [0,Math.floor(Math.random() * 700)];
+        return [1000,Math.floor(Math.random() * 700)];
     }
     if (dinoStart === 1){
         return [1000,Math.floor(Math.random() * 700)];

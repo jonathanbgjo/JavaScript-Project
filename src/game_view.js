@@ -19,6 +19,10 @@ GameView.prototype.start = function () {
         that.game.moveObjects();
         that.game.draw(that.ctx);
     }, interval);
+    setInterval(() => {
+        this.game.addDinos(this.ctx);
+        this.game.addDinos(this.ctx);
+    }, 5000);
 }
 
 
