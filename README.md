@@ -1,1 +1,2 @@
 # JavaScript-Project
+# JavaScript-TypingGame
